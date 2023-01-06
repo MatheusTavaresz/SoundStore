@@ -1,4 +1,4 @@
-# Notification Service
+# SoundStore
 
 ![preview](./preview.jpg)
 
