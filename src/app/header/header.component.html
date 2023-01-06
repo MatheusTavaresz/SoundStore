@@ -1,0 +1,23 @@
+<header class="main-header">
+    <h2 class="main-header__title">
+       
+        <span class="header-title__Green">Sound</span><span class="header-title__Orange">Store</span>
+    </h2>
+<div class="container-menu">
+    <nav class="main-header__menu">
+        <ul>
+            <li>
+                <a routerLink="produtos">Produtos</a>
+            </li>
+            <li>
+                <a routerLink="carrinho">Carrinho</a>
+                <span class="badge-carrinho">{{carrinhoService.obtemCarrinho().length}}</span>
+            </li>
+            <li><a routerLink="contato">Contato</a></li>
+            <li><a target="_blank" href="https://www.instagram.com/pragmando.web/"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a target="_blank" href="https://www.linkedin.com/in/matheus-patrickz/"><i class="fa-brands fa-linkedin-in"></i></a></li>
+        </ul>
+    </nav>
+    <app-barra-pesquisa></app-barra-pesquisa>
+</div>
+</header>
